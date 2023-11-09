@@ -1,0 +1,27 @@
+html {
+    background-color: rgb(247, 246, 234);
+    margin: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%
+}
+
+section {
+    margin: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: Times, sans-serif;
+    font-weight: bold;
+    color: rgb(14, 15, 15)
+}
+h2{
+    font-family: Times,sans-serif;
+    color: rgb(14, 15, 15);
+}
+p{
+    font-family: Times, sans-serif;
+    color: rgb(14, 15, 15);
+}
+/* classes */
+/* specific divs */
