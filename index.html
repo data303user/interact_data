@@ -3,6 +3,7 @@
 
     <head>
         <title>Interacting With Data Page</title>
+        <link rel="stylesheet" href="css_1.css"> 
         <style>
             html,
             body {
@@ -18,11 +19,41 @@
     </head>
 
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="donut.html">Donut Chart</a></li>
+                    <li><a href="map.html">Interactive Map</a></li>
+                    <li><a href="scatter.html">Scatter Plot</a></li>
+                </ul>
+            </nav>
+        </header>    
         <h1> Indigenous Population in Canada </h1>
         <h2> What proportion of Canadians identify as Indigenous? </h2>
         <iframe src="donut.html" title="Donut Chart"></iframe>
+        <p>
+            This plot shows that the majority of Canada's population is Non-Indigenous. 
+            Between the three Indigenous groups First Nations holds the highest percentage of Canada's overall population.
+            They are followed by Métis, then Inuit. 
+        </p>
         <h2> Where are Indigenous populations in Canada? </h2>
         <iframe src="map.html" title="Map"></iframe>
+        <p> The provinces/territories with the highest percentage of their population being indigenous are towards the north of Canada in Nunavut and the Norwest Territories. 
+            This however does not necessarily reflect where the highest count of Indigenous populations are concentrated in Canada. 
+            The population of the provinces/territories in the south of Canada are overall higher than in the north, hence there is a higher overall Indigenous population. 
+            The territories/provinces where Indigenous individuals are the majority are Nunavut and the Norwest Territories. 
+        </p>
+        <h2> How does mental health relate to social/socioeconomic factors in Indigenous and
+            non-Indigenous populations? </h2>
+        <iframe src="scatter.html" title="Map"></iframe>
+        <p>There appears to be a positive correlation between the two variables plotted based on the both sexes plot. 
+            I interpret this to mean that having fair/poor mental health and having severe or moderate food insecurity appear amplify the other for the populations we are looking at.
+            As the percentage of fair/poor mental increases so does the percentage of severe of moderate food insecurity. 
+            While there are differences in the plots for females and males, this general pattern appears in all three plots. In all of them there is an outlier being the Inuit population, 
+            where the food insecurity percentage remains higher than the mental health percentage might indicate if it followed the general trend. Overall the Non Indigenous population appears
+            to have the lowest percentages for fair/poor mental health and severe or moderate food insecurity. 
+        </p>
+
     </body>
 
 </html>
